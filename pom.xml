@@ -12,7 +12,7 @@
     <scm>
         <connection>scm:git:https://dxtrsd:kiri567sri@github.com/sri008/maven-multi-module-example.git</connection>
     <developerConnection>scm:git:https://dxtrsd:kiri567sri@github.com/sri008/maven-multi-module-example.git</developerConnection>
-    <url>https://dxtrsd:kiri567sri@github.com/sri008/maven-multi-module-example.git</url>
+    <url>https://github.com/sri008/maven-multi-module-example</url>
   </scm>
   
     <distributionManagement>
