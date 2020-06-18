@@ -20,7 +20,9 @@ pipeline {
       }
       stage('Update Rel') {
          steps {
-            sh 'git push https://dxtrsd:kiri567sri@github.com/dxtrsd/maven-multi-module-example.git HEAD:master'
+            sh label: '', script: '''git config --global user.name "dxtrsd"
+git config --global user.email "srid199008@gmail.com"
+git push https://dxtrsd:kiri567sri@github.com/dxtrsd/maven-multi-module-example.git HEAD:master'''
          }
       }
    }
