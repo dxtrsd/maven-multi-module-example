@@ -35,7 +35,12 @@
                 <tagNameFormat>v@{project.version}</tagNameFormat>
                 </configuration>
             </plugin>
-             <plugin>
+                  <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                     <artifactId>maven-release-plugin</artifactId>
+                    <version>3.0.0-M1</version>
+                 </plugin>
+<!--              <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-scm-plugin</artifactId>
                 <version>1.11.2</version>
@@ -50,7 +55,7 @@
                 <configuration>
                 <connectionType>developerConnection</connectionType>
                 </configuration>
-            </plugin>
+            </plugin> -->
          </plugins>
    </build>
 </project>
